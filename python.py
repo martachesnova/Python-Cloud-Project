@@ -66,7 +66,7 @@ if __name__=='__main__':
     print('dataframe saved to local')
 
     # use linux command to upload file to S3
-    folder_location = bucket + folder + 'jobs.csv'
+    folder_location = bucket + folder
     subprocess.run(['aws', 's3', 'cp', 'jobs.csv', folder_location])
   
     # Success.

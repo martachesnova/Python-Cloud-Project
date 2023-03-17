@@ -2,7 +2,7 @@
 url='https://www.themuse.com/api/public/jobs?page=45'
 
 [aws]
-bucket='themuse-job-data-bucket'
+bucket='s3://themuse-job-data-bucket/'
 folder='input/'
 
 [run]
